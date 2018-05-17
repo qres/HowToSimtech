@@ -164,6 +164,15 @@ Language especially for plotting. Can export to many formats including png, svg,
 
 </details>
 
+<details><summary>PGFPlots</summary>
+Package um direkt in LaTeX Plots aus CSV Datein zu erstellen. Unterstützt unter anderem Graphen, Diagramme, Boxplots und 3D-Plots.
+
+ * Es gibt auch viele high-level Funkionen wie Schleifen und Zufallszahlen.
+ * Langsam bei vielen Plots. Um das häufige neuberechnen der Plots zu umgehen, kann man aber die Plots in einem externen File anlegen, als PDF compilieren, und dann mittels `\includegraphics{...}` wieder einbinden.
+ * Kann auch gnuplot zum Plotten verwenden.
+
+</details>
+
 # PDF viewer
 
 <details><summary>Zathura</summary>
