@@ -40,6 +40,29 @@ Good for writing pdf documents quickly. Not as nice as LaTeX but good enough for
 
 # LaTeX
 
+<details><summary><a href="http://detexify.kirelabs.org/classify.html">Detexify</a></summary>
+Male das Symbol das du brauchst und Detexify sagt dir den LaTeX-Befehl und das zugehörige Package.
+</details>
+
+<details><summary>Syntex</summary>
+Wenn man LaTeX mit der Option `--synctex=1` kompiliert, wird eine `*.synctex.gz` Datei erstellt, die die Vorwärts- und Rückwärtssuche ermöglicht. Das heißt konkret, dass man im Editor bzw. PDF/PS/DVI-Viewer, der das unterstützt, durch Strg + Klick auf eine Stelle, jeweils zu der selben Stelle im anderen Programm kommt.
+</details>
+
+<details><summary>latexmk</summary>
+Perl-Skript das automatisch die nötige Anzahl an Schritten für Index, BibTeX/Biber, Referenzen, etc. ausführt.
+
+ * Die Option `Option -pvc` bewirkt automatisch eine kontinuierliche Vorschau.
+
+</details>
+
+<details><summary>JabRef</summary>
+Tool zum Verwalten von Literatur für Latex auf Basis von BibTeX. Man kann suchen, PDFs verknüpfen und Zusammenfassungen schreiben.
+</details>
+
+<details><summary><a href="http://www.jonathanleroux.org/software/iguanatex/">IguanaTex</a></summary>
+Plugin für PowerPoint um Latex-Formeln direkt einzubinden.
+</details>
+
 ## Editors
 
 <details><summary>TexMaker</summary>
@@ -48,7 +71,18 @@ Good for writing pdf documents quickly. Not as nice as LaTeX but good enough for
 <details><summary>VS-Code plugin</summary>
 </details>
 
-<details><summary>Lyx</summary>
+<details><summary>Sublime plugin</summary>
+
+ * LaTeXTools
+ * LaTeX-cwl
+
+</details>
+
+<details><summary><a href="https://www.lyx.org/Screenshots">Lyx</a></summary>
+WYSIWYM Editor für Dokumente. Formeln werden direkt (fast) so gesetzt wie sie später aussehen. Verwendet intern LaTeX und kann auch den LaTeX Code exportieren.  Mit ein paar wenigen Shortcuts kann man sehr schell mathematische Formeln schreiben (z.B. `Alt-M G A` für Alpha (also "Alt Math Greek Alpha"), oder `Alt-M I` für Integrale).
+
+ * Mit `Strg-L` kann man inline LaTeX schreiben, wenn der Editor bestimmte Funktionen nicht unterstützt.
+
 </details>
 
 # Debugging -- C, C++, ...
