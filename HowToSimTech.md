@@ -6,6 +6,20 @@
 <details><summary>atom</summary>
 </details>
 
+# CLI Editors
+
+<details><summary>nano</summary>
+Die am einfachsten zu benutzende Option. Mit selbsterklärender Benutzung.
+</details>
+
+<details><summary>Vim</summary>
+Komplexerer Command Line Editor mit komplexerer Bedinung aber extrem vielen Features. Am Anfang sollte man sich ein Vim-Cheat-Sheet googeln.
+</details>
+
+<details><summary>Emacs</summary>
+Komplexerer Command Line Editor mit komplexerer Bedinung aber extrem vielen Features. Am Anfang sollte man sich ein Emacs-Cheat-Sheet googeln.
+</details>
+
 # Version Control
 
 <details><summary>git</summary>
