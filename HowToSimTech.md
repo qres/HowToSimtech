@@ -107,6 +107,10 @@ WYSIWYM Editor für Dokumente. Formeln werden direkt (fast) so gesetzt wie sie s
 
 </details>
 
+<details><summary><a href="https://gdbgui.com/screenshots.html">gdbgui</a></summary>
+"Browser-based debugger for C, C++, go, rust, and more"
+</details>
+
 <details><summary>Valgrind</summary>
 Useful if you have hard to find _memory bugs_ when gdb doesen't catch them or doesen't give any useful information. Examples are _double free_-bugs, bughs which corrupted the allocator meta data (in this case you might get an error the next time you try to allocate any new memory) or reading _uninitialized memory_.
 
