@@ -24,8 +24,20 @@ Komplexerer Command Line Editor mit komplexerer Bedinung aber extrem vielen Feat
 
 <details><summary>git</summary>
 
- * Git book
+ * Das [Git Book](https://git-scm.com/book/en/v2) ist ein guter Startpunkt.
+ * `git gui` um Commits zu erstellen und `gitk` um die History anzuschauen.
 
+</details>
+
+<details><summary>GitHub</summary>
+Host für Git-Repositories.
+
+ * Wenn man sich einen Studenten Account zulegt, kann man auch private Repos machen.
+
+</details>
+
+<details><summary>BitBucket</summary>
+Kostenlose alternative zu GitHub mit privaten Repositories.
 </details>
 
 # Simple Documents
