@@ -167,3 +167,13 @@ Language especially for plotting. Can export to many formats including png, svg,
 
 <details><summary>Ocular</summary>
 </details>
+
+# Shells
+
+<details><summary><a href="https://fishshell.com/docs/current/tutorial.html">Fish Shell</a></summary>
+Shell mit Autocompletion und vielen weiteren Features.
+</details>
+
+<details><summary><a href="https://github.com/robbyrussell/oh-my-zsh">ZSH</a></summary>
+Shell mit Autocompletion und vielen weiteren Features.
+</details>
