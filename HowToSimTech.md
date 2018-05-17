@@ -198,6 +198,17 @@ Shell mit Autocompletion und vielen weiteren Features.
 Shell mit Autocompletion und vielen weiteren Features.
 </details>
 
+# Libraries
+
+<details><summary>Python</summary>
+
+ * Numpy für effizientere Array/Vector/Matrix-Berechnungen.
+ * [Scipy](https://docs.scipy.org/doc/scipy/reference/index.html) bietet viele nützliche Algorithmen für z.B. Lineare Algrabra, FFT und Optimierung.
+ * Sympy for smybolisches Rechnen, Integrieren, Differenzieren.
+ * Matplotlib zum plotten.
+
+</details>
+
 # Code Documentation
 
 <details><summary>Doxygen</summary>
