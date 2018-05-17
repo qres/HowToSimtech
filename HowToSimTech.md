@@ -6,6 +6,13 @@
 <details><summary>atom</summary>
 </details>
 
+<details><summary>Jetbrains IDEs</summary>
+Kostenpflichtige IDE für Java, Python, C, C++, PHP.
+
+ * Es gibt eine kostenlose [Studentenversion](https://www.jetbrains.com/student/).
+
+</details>
+
 # CLI Editors
 
 <details><summary>nano</summary>
