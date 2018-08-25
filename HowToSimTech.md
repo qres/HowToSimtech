@@ -53,7 +53,7 @@ Kostenlose alternative zu GitHub mit privaten Repositories.
 Good for writing pdf documents quickly. Not as nice as LaTeX but good enough for exercises.
 
  * Can compile markdown to pdf, html and many others.
- * Allows inline html, latex, latex formulas, ...
+ * Allows inline html and latex formulas, ...
 
 </details>
 
