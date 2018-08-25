@@ -157,6 +157,7 @@ Demangles C++ names to make them more readable. Nice in combination with profile
 <details><summary>cuda-gdb</summary>
 Gdb with cuda extension. You can also set _breakpoints in kernels_ and switch between threads to inspect the variables.
 
+ * You can also create an init file `~/cuda-gdbinit`. Just use the same file as for `gdb` if you want colored backtraces.
  * To check for _invalid memory addresses_, you can use `set cuda memcheck on` to enable something like `valgrind --tool=memcheck` for cuda
  * TODO: problem with breakpoints on gpu connected to display.
 
