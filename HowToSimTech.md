@@ -146,6 +146,10 @@ Nice way to [visually present](http://www.brendangregg.com/FlameGraphs/cpuflameg
 
 </details>
 
+<details><summary>c++filt</summary>
+Demangles C++ names to make them more readable. Nice in combination with profiler output or flamegraphs.
+</details>
+
 # Debugging -- Cuda
 
 <details><summary>cuda-gdb</summary>
