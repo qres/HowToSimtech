@@ -239,6 +239,13 @@ Job manager.
 
 </details>
 
+<details><summary>FEM</summary>
+
+ * FeniCS: Python
+ * deal.II: C++
+
+</details>
+
 # Code Documentation
 
 <details><summary>Doxygen</summary>
