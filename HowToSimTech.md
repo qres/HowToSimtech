@@ -136,6 +136,8 @@ Useful if you have hard to find _memory bugs_ when gdb doesen't catch them or do
 
 Nice way to [visually present](http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html) the results of `perf`.
 
+ * `perf script | ~/FlameGraph/stackcollapse-perf.pl | ~/FlameGraph/flamegraph.pl > flamegraph.svg` creates a svg image from the perf script.
+ * You can also mix it with some `grep`, `sed`, oder `c++filt`.
  * There also exists a [module](https://github.com/evanhempel/python-flamegraph) for python.
 
 </details>
