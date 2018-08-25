@@ -156,6 +156,16 @@ Gdb with cuda extension. You can also set _breakpoints in kernels_ and switch be
 
 </details>
 
+# Profiling -- Cuda
+
+<details><summary>nvprof</summary>
+Command line profiler for Cuda programs. You can also generate a file which can be imported to `nvvp` using `--analysis-metrics -o file`. This helps with profiling a remote program.
+
+ * You can output the profiling in CSV format using a common time unit using `--csv -u us`.
+ * Profiling can be limited to specific kernels using `--kernels my_kernel` which applies to the option `--events` or `--metrics` that follows it.
+
+</details>
+
 # Plotting
 
 <details><summary>matplotlib</summary>
