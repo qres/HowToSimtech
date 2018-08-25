@@ -64,6 +64,7 @@ Male das Symbol das du brauchst und Detexify sagt dir den LaTeX-Befehl und das z
 </details>
 
 <details><summary>Syntex</summary>
+
 Wenn man LaTeX mit der Option `--synctex=1` kompiliert, wird eine `*.synctex.gz` Datei erstellt, die die Vorwärts- und Rückwärtssuche ermöglicht. Das heißt konkret, dass man im Editor bzw. PDF/PS/DVI-Viewer, der das unterstützt, durch Strg + Klick auf eine Stelle, jeweils zu der selben Stelle im anderen Programm kommt.
 </details>
 
