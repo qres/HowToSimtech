@@ -183,7 +183,7 @@ Python library for plotting.
 Language especially for plotting. Can export to many formats including png, svg, latex.
 
  * You can use the init file `.gnuplot` to run code or set settings startup
- * Can fit arbitrary parameters to compute a function to approximate the data points.
+ * Can fit arbitrary parameters to compute a function that approximates the data points using `fit`.
  * You can also plot data using the output of shell commands: `plot '< python gen_data.py'` or `plot '< sed -n "s/^# //p" file'` or even with pipes `plot '< cat data/* | sed -n "s#re=\(.*\)#\1#p"'`
 
 </details>
