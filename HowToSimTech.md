@@ -212,6 +212,22 @@ Shell mit Autocompletion und vielen weiteren Features.
 Shell mit Autocompletion und vielen weiteren Features.
 </details>
 
+# Job Scheduler
+
+<details><summary>Slurm</summary>
+Job manager.
+
+ * `srun --ntasks 42 script.sh` allocates 42 tasks and runs the job in your terminal. The default is one task  per  node.
+ * `srun --ntasks 42 --pty bash` allocates 42 tasks and starts an interactive session. Use `exit` to exit the interactive session.
+ * `sbatch --ntasks=1 script.sh` allocates and runs script. script gets _copied_ to an other location and gets run, once there are enough recources available.
+ * `squeue` to see the current jobs in the job queue.
+ * `scancel` to kill your jobs or revoke them from the queue.
+ * `salloc --ntasks=42` allocate recources for yourself, but stay on login node. If you want to use the recources use `srun` afterwards. Useful if one jobs contains multiple `srun` commands, as you don't have to reallocate recources for each job. Use `exit` to exit the allocation.
+ * Use `--job-name="Bob"` to give your job a descriptive name.
+ * Use `--time=8:00:00` to set the upper limit for the runtime of your program.
+
+</details>
+
 # Libraries
 
 <details><summary>Python</summary>
