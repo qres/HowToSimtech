@@ -122,7 +122,7 @@ WYSIWYM Editor für Dokumente. Formeln werden direkt (fast) so gesetzt wie sie s
 <details><summary>Valgrind</summary>
 Useful if you have hard to find _memory bugs_ when gdb doesen't catch them or doesen't give any useful information. Examples are _double free_-bugs, bughs which corrupted the allocator meta data (in this case you might get an error the next time you try to allocate any new memory) or reading _uninitialized memory_.
 
- * You can use the flag `valgrind --track-origine=yes` to make valgrind track and report where you allocated uninitialized memory.
+ * You can use the flag `valgrind --track-origins=yes` to make valgrind track and report where you allocated uninitialized memory.
  * Besides memory checks with the default `--tool=memcheck` there also exist many other tools. E.g. `--tool=cachegrind` wich compute _cache misses_ for the instruction cache and memory chache.
  * Warning: valgrind will make you program run really slow.
 
