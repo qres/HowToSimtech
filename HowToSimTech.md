@@ -232,6 +232,18 @@ Job manager.
  * Use `--job-name="Bob"` to give your job a descriptive name.
  * Use `--time=8:00:00` to set the upper limit for the runtime of your program.
 
+```bash
+srun -n4 hostname # runs hostname on four nodes
+
+salloc -n4 # allocate four nodes
+  srun hostname # runs hostname on all allocated nodes
+  srun -n2 hostname # runs hostname on two of the allocated nodes
+exit
+
+sbatch -n4 hostname # submits a job to run hostname on four nodes
+# returns immediately and stores the output of the job into a file
+```
+
 </details>
 
 # Libraries
