@@ -159,7 +159,8 @@ Demangles C++ names to make them more readable. Nice in combination with profile
 Gdb with cuda extension. You can also set _breakpoints in kernels_ and switch between threads to inspect the variables.
 
  * You can also create an init file `~/cuda-gdbinit`. Just use the same file as for `gdb` if you want colored backtraces.
- * To check for _invalid memory addresses_, you can use `set cuda memcheck on` to enable something like `valgrind --tool=memcheck` for cuda
+ * To break on API errors like failed kernel launches or other error codes use `set cuda api_failures stop`.
+ * To check for _invalid memory addresses_, you can use `set cuda memcheck on` to enable something like `valgrind --tool=memcheck` for cuda. Warning: This makes your program much slower.
  * TODO: problem with breakpoints on gpu connected to display.
 
 </details>
@@ -170,7 +171,8 @@ Gdb with cuda extension. You can also set _breakpoints in kernels_ and switch be
 Command line profiler for Cuda programs. You can also generate a file which can be imported to `nvvp` using `--analysis-metrics -o file`. This helps with profiling a remote program.
 
  * You can output the profiling in CSV format using a common time unit using `--csv -u us`.
- * Profiling can be limited to specific kernels using `--kernels my_kernel` which applies to the option `--events` or `--metrics` that follows it.
+ * Profiling can be limited to specific kernels using `--kernels my_kernel` which applies to following `--analysis-metrics`, `--events` or `--metrics` options.
+ * You can control the GPUs visible to your program by setting the environment variable `CUDA_VISIBLE_DEVICES`. Example: `CUDA_VISIBLE_DEVICES=0,2` masks out GPU 1. Run `nvidia-smi` to get the number of each GPU.
 
 </details>
 
