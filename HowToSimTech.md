@@ -7,6 +7,7 @@
 </details>
 
 <details><summary>Jetbrains IDEs</summary>
+
 Kostenpflichtige IDE für Java, Python, C, C++, PHP.
 
  * Es gibt eine kostenlose [Studentenversion](https://www.jetbrains.com/student/).
@@ -37,6 +38,7 @@ Komplexerer Command Line Editor mit komplexerer Bedinung aber extrem vielen Feat
 </details>
 
 <details><summary>GitHub</summary>
+
 Host für Git-Repositories.
 
  * Wenn man sich einen Studenten Account zulegt, kann man auch private Repos machen.
@@ -50,6 +52,7 @@ Kostenlose alternative zu GitHub mit privaten Repositories.
 # Simple Documents
 
 <details><summary>Markdown + pandoc</summary>
+
 Good for writing pdf documents quickly. Not as nice as LaTeX but good enough for exercises.
 
  * Can compile markdown to pdf, html and many others.
@@ -66,9 +69,11 @@ Male das Symbol das du brauchst und Detexify sagt dir den LaTeX-Befehl und das z
 <details><summary>Syntex</summary>
 
 Wenn man LaTeX mit der Option `--synctex=1` kompiliert, wird eine `*.synctex.gz` Datei erstellt, die die Vorwärts- und Rückwärtssuche ermöglicht. Das heißt konkret, dass man im Editor bzw. PDF/PS/DVI-Viewer, der das unterstützt, durch Strg + Klick auf eine Stelle, jeweils zu der selben Stelle im anderen Programm kommt.
+
 </details>
 
 <details><summary>latexmk</summary>
+
 Perl-Skript das automatisch die nötige Anzahl an Schritten für Index, BibTeX/Biber, Referenzen, etc. ausführt.
 
  * Die Option `Option -pvc` bewirkt automatisch eine kontinuierliche Vorschau.
@@ -99,6 +104,7 @@ Plugin für PowerPoint um Latex-Formeln direkt einzubinden.
 </details>
 
 <details><summary>LyX <a href="https://www.lyx.org/Screenshots">↗</a></summary>
+
 WYSIWYM Editor für Dokumente. Formeln werden direkt (fast) so gesetzt wie sie später aussehen. Verwendet intern LaTeX und kann auch den LaTeX Code exportieren.  Mit ein paar wenigen Shortcuts kann man sehr schell mathematische Formeln schreiben (z.B. `Alt-M G A` für Alpha (also "Alt Math Greek Alpha"), oder `Alt-M I` für Integrale).
 
  * Mit `Strg-L` kann man inline LaTeX schreiben, wenn der Editor bestimmte Funktionen nicht unterstützt.
@@ -120,6 +126,7 @@ WYSIWYM Editor für Dokumente. Formeln werden direkt (fast) so gesetzt wie sie s
 </details>
 
 <details><summary>Valgrind</summary>
+
 Useful if you have hard to find _memory bugs_ when gdb doesen't catch them or doesen't give any useful information. Examples are _double free_-bugs, bughs which corrupted the allocator meta data (in this case you might get an error the next time you try to allocate any new memory) or reading _uninitialized memory_.
 
  * You can use the flag `valgrind --track-origins=yes` to make valgrind track and report where you allocated uninitialized memory.
@@ -156,6 +163,7 @@ Demangles C++ names to make them more readable. Nice in combination with profile
 # Debugging -- Cuda
 
 <details><summary>cuda-gdb</summary>
+
 Gdb with cuda extension. You can also set _breakpoints in kernels_ and switch between threads to inspect the variables.
 
  * You can also create an init file `~/cuda-gdbinit`. Just use the same file as for `gdb` if you want colored backtraces.
@@ -168,6 +176,7 @@ Gdb with cuda extension. You can also set _breakpoints in kernels_ and switch be
 # Profiling -- Cuda
 
 <details><summary>nvprof</summary>
+
 Command line profiler for Cuda programs. You can also generate a file which can be imported to `nvvp` using `--analysis-metrics -o file`. This helps with profiling a remote program.
 
  * You can output the profiling in CSV format using a common time unit using `--csv -u us`.
@@ -183,6 +192,7 @@ Python library for plotting.
 </details>
 
 <details><summary>gnuplot</summary>
+
 Language especially for plotting. Can export to many formats including png, svg, latex.
 
  * You can use the init file `.gnuplot` to run code or set settings startup
@@ -192,6 +202,7 @@ Language especially for plotting. Can export to many formats including png, svg,
 </details>
 
 <details><summary>PGFPlots</summary>
+
 Package um direkt in LaTeX Plots aus CSV Datein zu erstellen. Unterstützt unter anderem Graphen, Diagramme, Boxplots und 3D-Plots.
 
  * Es gibt auch viele high-level Funkionen wie Schleifen und Zufallszahlen.
@@ -221,6 +232,7 @@ Shell mit Autocompletion und vielen weiteren Features.
 # Job Scheduler
 
 <details><summary>Slurm</summary>
+
 Job manager.
 
  * `srun --ntasks 42 script.sh` allocates 42 tasks and runs the job in your terminal. The default is one task  per  node.
