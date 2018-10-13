@@ -8,45 +8,45 @@
 
 <details><summary>Jetbrains IDEs</summary>
 
-Kostenpflichtige IDE für Java, Python, C, C++, PHP.
+paid IDE for Java, Python, C, C++, PHP.
 
- * Es gibt eine kostenlose [Studentenversion](https://www.jetbrains.com/student/).
+ * There is a free [version for students](https://www.jetbrains.com/student/).
 
 </details>
 
-# CLI Editors
+# Command Line Editors
 
 <details><summary>nano</summary>
-Die am einfachsten zu benutzende Option. Mit selbsterklärender Benutzung.
+The most simple option with self-explaining interface.
 </details>
 
 <details><summary>Vim</summary>
-Komplexerer Command Line Editor mit komplexerer Bedinung aber extrem vielen Features. Am Anfang sollte man sich ein Vim-Cheat-Sheet googeln.
+More complex editor with many features. You should get a vim cheat sheet in the beginning.
 </details>
 
 <details><summary>Emacs</summary>
-Komplexerer Command Line Editor mit komplexerer Bedinung aber extrem vielen Features. Am Anfang sollte man sich ein Emacs-Cheat-Sheet googeln.
+More complex editor with many features. You should get a emacs cheat sheet in the beginning.
 </details>
 
 # Version Control
 
 <details><summary>git</summary>
 
- * Das [Git Book](https://git-scm.com/book/en/v2) ist ein guter Startpunkt.
- * `git gui` um Commits zu erstellen und `gitk` um die History anzuschauen.
+ * The [Git Book](https://git-scm.com/book/en/v2) is a good place to start.
+ * You can use `git gui` to create commits and `gitk` to view the history.
 
 </details>
 
 <details><summary>GitHub</summary>
 
-Host für Git-Repositories.
+Host for git repositories.
 
- * Wenn man sich einen Studenten Account zulegt, kann man auch private Repos machen.
+ * You can create free private repositories with a student account.
 
 </details>
 
 <details><summary>BitBucket</summary>
-Kostenlose alternative zu GitHub mit privaten Repositories.
+Free alternative to GitHub with private repositories.
 </details>
 
 # Simple Documents
@@ -63,29 +63,29 @@ Good for writing pdf documents quickly. Not as nice as LaTeX but good enough for
 # LaTeX
 
 <details><summary>Detexify <a href="http://detexify.kirelabs.org/classify.html">↗</a></summary>
-Male das Symbol das du brauchst und Detexify sagt dir den LaTeX-Befehl und das zugehörige Package.
+Draw the symbol you need and detexify will tell you the corresponding LaTeX command and package.
 </details>
 
 <details><summary>Syntex</summary>
 
-Wenn man LaTeX mit der Option `--synctex=1` kompiliert, wird eine `*.synctex.gz` Datei erstellt, die die Vorwärts- und Rückwärtssuche ermöglicht. Das heißt konkret, dass man im Editor bzw. PDF/PS/DVI-Viewer, der das unterstützt, durch Strg + Klick auf eine Stelle, jeweils zu der selben Stelle im anderen Programm kommt.
+Use LaTeX with `--synctex=1` to link the produced pdf to your LaTeX source code. If you have syntex support in your pdf/ps/dvi viewer and your editor, you can ctrl-click on a paragraph to scroll to it and get it highlighted in the other document.
 
 </details>
 
 <details><summary>latexmk</summary>
 
-Perl-Skript das automatisch die nötige Anzahl an Schritten für Index, BibTeX/Biber, Referenzen, etc. ausführt.
+Automagically performs all steps needed to create the index, BibTeX/Biber, references, ...
 
- * Die Option `Option -pvc` bewirkt automatisch eine kontinuierliche Vorschau.
+ * You can get a continuous preview with the `-pvc` option.
 
 </details>
 
-<details><summary>JabRef</summary>
-Tool zum Verwalten von Literatur für Latex auf Basis von BibTeX. Man kann suchen, PDFs verknüpfen und Zusammenfassungen schreiben.
+<details><summary>JabRef <a href="http://www.jabref.org/">↗</a></summary>
+Tool to manage your BibTeX references. You can search and tag the references, link them to pdfs and add summaries.
 </details>
 
 <details><summary>IguanaTex <a href="http://www.jonathanleroux.org/software/iguanatex/">↗</a></summary>
-Plugin für PowerPoint um Latex-Formeln direkt einzubinden.
+PowerPoint plugin to use LaTeX formulas in your document.
 </details>
 
 ## Editors
@@ -105,9 +105,9 @@ Plugin für PowerPoint um Latex-Formeln direkt einzubinden.
 
 <details><summary>LyX <a href="https://www.lyx.org/Screenshots">↗</a></summary>
 
-WYSIWYM Editor für Dokumente. Formeln werden direkt (fast) so gesetzt wie sie später aussehen. Verwendet intern LaTeX und kann auch den LaTeX Code exportieren.  Mit ein paar wenigen Shortcuts kann man sehr schell mathematische Formeln schreiben (z.B. `Alt-M G A` für Alpha (also "Alt Math Greek Alpha"), oder `Alt-M I` für Integrale).
+WYSIWYM editor for documents which uses LaTeX internally and also exports to LaTeX code. The document and formulas are shown similarly to the final document. Mathematical formulas can either be written using the LaTeX code or with the various shortcuts (e.g `Alt-M G A` for alpha (read "alt math Greek alpha"), `Alt-M I` for integrals).
 
- * Mit `Strg-L` kann man inline LaTeX schreiben, wenn der Editor bestimmte Funktionen nicht unterstützt.
+ * You can write raw LaTeX via `ctrl-L` for features that are not natively supported by LyX.
 
 </details>
 
@@ -115,7 +115,7 @@ WYSIWYM Editor für Dokumente. Formeln werden direkt (fast) so gesetzt wie sie s
 
 <details><summary>gdb</summary>
 
- * You can modify the _startup script_ `~/.gdbinit`. There exists various init files to support _colored output_ ([copy this file in the init file](https://github.com/RAttab/dotfiles/blob/master/colors.gdb)) and many other other features.
+ * You can modify the _startup script_ `~/.gdbinit`. There exists various init files to support _colored output_ ([copy this file in your init file](https://github.com/RAttab/dotfiles/blob/master/colors.gdb)) and many other other features.
  * If you want to debug a program wich takes _command line arguments_ you can pass them like `gdb --args program param1 param2`.
  * You can print the first three elements of _arrays_ using `p *ptr@3`. If you have a 3x2 matrix you can also use `p *ptr@3@2` which will give a clearer structure to the output than `p *ptr@6`.
 
@@ -127,10 +127,10 @@ WYSIWYM Editor für Dokumente. Formeln werden direkt (fast) so gesetzt wie sie s
 
 <details><summary>Valgrind</summary>
 
-Useful if you have hard to find _memory bugs_ when gdb doesen't catch them or doesen't give any useful information. Examples are _double free_-bugs, bughs which corrupted the allocator meta data (in this case you might get an error the next time you try to allocate any new memory) or reading _uninitialized memory_.
+Useful to find difficult _memory bugs_ when gdb doesn't catch them or doesn't give any useful information. Examples are _double free_-bugs, bugs which corrupted the allocator meta data (in this case you might get an error the next time you try to allocate any new memory) or reading _uninitialized memory_.
 
  * You can use the flag `valgrind --track-origins=yes` to make valgrind track and report where you allocated uninitialized memory.
- * Besides memory checks with the default `--tool=memcheck` there also exist many other tools. E.g. `--tool=cachegrind` wich compute _cache misses_ for the instruction cache and memory chache.
+ * Besides memory checks with the default `--tool=memcheck` there also exist many other tools. E.g. `--tool=cachegrind`, which compute _cache misses_ for the instruction cache and memory cache.
  * Warning: valgrind will make your program run really slow.
 
 </details>
@@ -142,7 +142,7 @@ Useful if you have hard to find _memory bugs_ when gdb doesen't catch them or do
 
 <details><summary>Flamegraph <a href="http://www.brendangregg.com/flamegraphs.html">↗</a></summary>
 
-Nice way to [visually present](http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html) the results of `perf`.
+Nice way to [visualize](http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html) the results of `perf`.
 
  * `perf script | ~/FlameGraph/stackcollapse-perf.pl | ~/FlameGraph/flamegraph.pl > flamegraph.svg` creates an interactive svg image from the perf script.
  * You can also mix it with some `grep`, `sed`, oder `c++filt`.
@@ -177,10 +177,10 @@ Gdb with cuda extension. You can also set _breakpoints in kernels_ and switch be
 
 <details><summary>nvprof</summary>
 
-Command line profiler for Cuda programs. You can also generate a file which can be imported to `nvvp` using `--analysis-metrics -o file`. This helps with profiling a remote program.
+Command line profiler for Cuda programs. You can also generate a file, which can be imported to `nvvp` using `--analysis-metrics -o file`. This helps with profiling a remote program.
 
- * You can output the profiling in CSV format using a common time unit using `--csv -u us`.
- * Profiling can be limited to specific kernels using `--kernels my_kernel` which applies to following `--analysis-metrics`, `--events` or `--metrics` options.
+ * You can output the profiling in CSV format with a common time unit using `--csv -u us`.
+ * Profiling can be limited to specific kernels using `--kernels my_kernel`, which applies to following `--analysis-metrics`, `--events` or `--metrics` options.
  * You can control the GPUs visible to your program by setting the environment variable `CUDA_VISIBLE_DEVICES`. Example: `CUDA_VISIBLE_DEVICES=0,2` masks out GPU 1. Run `nvidia-smi` to get the number of each GPU.
 
 </details>
@@ -203,11 +203,11 @@ Language especially for plotting. Can export to many formats including png, svg,
 
 <details><summary>PGFPlots</summary>
 
-Package um direkt in LaTeX Plots aus CSV Datein zu erstellen. Unterstützt unter anderem Graphen, Diagramme, Boxplots und 3D-Plots.
+Handy LaTeX package to create plots directly in LaTeX. Can plot data in CSV or gnuplot format. Supports diagrams, graphs, box plots, 3d plots and many more.
 
- * Es gibt auch viele high-level Funkionen wie Schleifen und Zufallszahlen.
- * Langsam bei vielen Plots. Um das häufige neuberechnen der Plots zu umgehen, kann man aber die Plots in einem externen File anlegen, als PDF compilieren, und dann mittels `\includegraphics{...}` wieder einbinden.
- * Kann auch gnuplot zum Plotten verwenden.
+ * There are also higher level features as loops and random numbers.
+ * Becomes slow for many plots. You can avoid the recomputation of the plots by compiling them in another document into an PDF and include it with `\includegraphics`. This is done automatically if you use `\usepgfplotslibrary{external}` and `\tikzexternalize[prefix=TikzPictures/]` in your preamble.
+ * You can use gnuplot to plot your data.
 
 </details>
 
@@ -222,11 +222,15 @@ Package um direkt in LaTeX Plots aus CSV Datein zu erstellen. Unterstützt unter
 # Shells
 
 <details><summary>Fish Shell <a href="https://fishshell.com/docs/current/tutorial.html">↗</a></summary>
-Shell mit Autocompletion und vielen weiteren Features.
+Shell with useful autocompletion and many other features.
 </details>
 
-<details><summary>ZSH <a href="https://github.com/robbyrussell/oh-my-zsh">↗</a></summary>
-Shell mit Autocompletion und vielen weiteren Features.
+<details><summary>ZSH</summary>
+
+Shell with useful autocompletion and many other features.
+
+ * To get started, [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/) is good to manage your zsh configuration.
+
 </details>
 
 # Job Scheduler
@@ -240,7 +244,7 @@ Job manager.
  * `sbatch --ntasks=1 script.sh` allocates and runs script. script gets _copied_ to an other location and gets run, once there are enough resources available.
  * `squeue` to see the current jobs in the job queue.
  * `scancel` to kill your jobs or revoke them from the queue.
- * `salloc --ntasks=42` allocate recources for yourself, but stay on login node. If you want to use the recources use `srun` afterwards. Useful if one jobs contains multiple `srun` commands, as you don't have to reallocate recources for each job. Use `exit` to exit the allocation.
+ * `salloc --ntasks=42` allocate recources for yourself, but stay on login node. If you want to use the recources use `srun` afterwards. Useful if one job contains multiple `srun` commands, as you don't have to reallocate recources for each job. Use `exit` to exit the allocation.
  * Use `--job-name="Bob"` to give your job a descriptive name.
  * Use `--time=8:00:00` to set the upper limit for the runtime of your program.
 
@@ -262,10 +266,10 @@ sbatch -n4 script.sh # submits a job to run hostname on four nodes
 
 <details><summary>Python</summary>
 
- * Numpy für effizientere Array/Vector/Matrix-Berechnungen.
- * [Scipy](https://docs.scipy.org/doc/scipy/reference/index.html) bietet viele nützliche Algorithmen für z.B. Lineare Algrabra, FFT und Optimierung.
- * Sympy for smybolisches Rechnen, Integrieren, Differenzieren.
- * Matplotlib zum plotten.
+ * Numpy for efficient array/vector/matrix operations.
+ * [Scipy](https://docs.scipy.org/doc/scipy/reference/index.html) offers many useful algorithms. E.g. linear algebra, FFT and optimization.
+ * Sympy for symbolic computations, integrals and derivatives.
+ * Matplotlib for plotting.
 
 </details>
 
