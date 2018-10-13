@@ -131,7 +131,7 @@ Useful if you have hard to find _memory bugs_ when gdb doesen't catch them or do
 
  * You can use the flag `valgrind --track-origins=yes` to make valgrind track and report where you allocated uninitialized memory.
  * Besides memory checks with the default `--tool=memcheck` there also exist many other tools. E.g. `--tool=cachegrind` wich compute _cache misses_ for the instruction cache and memory chache.
- * Warning: valgrind will make you program run really slow.
+ * Warning: valgrind will make your program run really slow.
 
 </details>
 
@@ -144,7 +144,7 @@ Useful if you have hard to find _memory bugs_ when gdb doesen't catch them or do
 
 Nice way to [visually present](http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html) the results of `perf`.
 
- * `perf script | ~/FlameGraph/stackcollapse-perf.pl | ~/FlameGraph/flamegraph.pl > flamegraph.svg` creates a svg image from the perf script.
+ * `perf script | ~/FlameGraph/stackcollapse-perf.pl | ~/FlameGraph/flamegraph.pl > flamegraph.svg` creates an interactive svg image from the perf script.
  * You can also mix it with some `grep`, `sed`, oder `c++filt`.
  * There also exists a [module](https://github.com/evanhempel/python-flamegraph) for python.
 
@@ -235,9 +235,9 @@ Shell mit Autocompletion und vielen weiteren Features.
 
 Job manager.
 
- * `srun --ntasks 42 script.sh` allocates 42 tasks and runs the job in your terminal. The default is one task  per  node.
- * `srun --ntasks 42 --pty bash` allocates 42 tasks and starts an interactive session. Use `exit` to exit the interactive session.
- * `sbatch --ntasks=1 script.sh` allocates and runs script. script gets _copied_ to an other location and gets run, once there are enough recources available.
+ * `srun --ntasks=42 script.sh` allocates 42 tasks and runs the job in your terminal. The default is one task per node.
+ * `srun --ntasks=42 --pty bash` allocates 42 tasks and starts an interactive session. Use `exit` to exit the interactive session.
+ * `sbatch --ntasks=1 script.sh` allocates and runs script. script gets _copied_ to an other location and gets run, once there are enough resources available.
  * `squeue` to see the current jobs in the job queue.
  * `scancel` to kill your jobs or revoke them from the queue.
  * `salloc --ntasks=42` allocate recources for yourself, but stay on login node. If you want to use the recources use `srun` afterwards. Useful if one jobs contains multiple `srun` commands, as you don't have to reallocate recources for each job. Use `exit` to exit the allocation.
@@ -252,7 +252,7 @@ salloc -n4 # allocate four nodes
   srun -n2 hostname # runs hostname on two of the allocated nodes
 exit
 
-sbatch -n4 hostname # submits a job to run hostname on four nodes
+sbatch -n4 script.sh # submits a job to run hostname on four nodes
 # returns immediately and stores the output of the job into a file
 ```
 
