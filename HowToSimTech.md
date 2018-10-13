@@ -59,7 +59,7 @@ Good for writing pdf documents quickly. Not as nice as LaTeX but good enough for
 
 # LaTeX
 
-<details><summary><a href="http://detexify.kirelabs.org/classify.html">Detexify</a></summary>
+<details><summary>Detexify <a href="http://detexify.kirelabs.org/classify.html">↗</a></summary>
 Male das Symbol das du brauchst und Detexify sagt dir den LaTeX-Befehl und das zugehörige Package.
 </details>
 
@@ -79,7 +79,7 @@ Perl-Skript das automatisch die nötige Anzahl an Schritten für Index, BibTeX/B
 Tool zum Verwalten von Literatur für Latex auf Basis von BibTeX. Man kann suchen, PDFs verknüpfen und Zusammenfassungen schreiben.
 </details>
 
-<details><summary><a href="http://www.jonathanleroux.org/software/iguanatex/">IguanaTex</a></summary>
+<details><summary>IguanaTex <a href="http://www.jonathanleroux.org/software/iguanatex/">↗</a></summary>
 Plugin für PowerPoint um Latex-Formeln direkt einzubinden.
 </details>
 
@@ -98,7 +98,7 @@ Plugin für PowerPoint um Latex-Formeln direkt einzubinden.
 
 </details>
 
-<details><summary><a href="https://www.lyx.org/Screenshots">Lyx</a></summary>
+<details><summary>LyX <a href="https://www.lyx.org/Screenshots">↗</a></summary>
 WYSIWYM Editor für Dokumente. Formeln werden direkt (fast) so gesetzt wie sie später aussehen. Verwendet intern LaTeX und kann auch den LaTeX Code exportieren.  Mit ein paar wenigen Shortcuts kann man sehr schell mathematische Formeln schreiben (z.B. `Alt-M G A` für Alpha (also "Alt Math Greek Alpha"), oder `Alt-M I` für Integrale).
 
  * Mit `Strg-L` kann man inline LaTeX schreiben, wenn der Editor bestimmte Funktionen nicht unterstützt.
@@ -115,7 +115,7 @@ WYSIWYM Editor für Dokumente. Formeln werden direkt (fast) so gesetzt wie sie s
 
 </details>
 
-<details><summary><a href="https://gdbgui.com/screenshots.html">gdbgui</a></summary>
+<details><summary>gdbgui <a href="https://gdbgui.com/screenshots.html">↗</a></summary>
 "Browser-based debugger for C, C++, go, rust, and more"
 </details>
 
@@ -133,7 +133,7 @@ Useful if you have hard to find _memory bugs_ when gdb doesen't catch them or do
 <details><summary>perf</summary>
 </details>
 
-<details><summary><a href="http://www.brendangregg.com/flamegraphs.html">Flamegraph</a></summary>
+<details><summary>Flamegraph <a href="http://www.brendangregg.com/flamegraphs.html">↗</a></summary>
 
 Nice way to [visually present](http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html) the results of `perf`.
 
@@ -210,11 +210,11 @@ Package um direkt in LaTeX Plots aus CSV Datein zu erstellen. Unterstützt unter
 
 # Shells
 
-<details><summary><a href="https://fishshell.com/docs/current/tutorial.html">Fish Shell</a></summary>
+<details><summary>Fish Shell <a href="https://fishshell.com/docs/current/tutorial.html">↗</a></summary>
 Shell mit Autocompletion und vielen weiteren Features.
 </details>
 
-<details><summary><a href="https://github.com/robbyrussell/oh-my-zsh">ZSH</a></summary>
+<details><summary>ZSH <a href="https://github.com/robbyrussell/oh-my-zsh">↗</a></summary>
 Shell mit Autocompletion und vielen weiteren Features.
 </details>
 
