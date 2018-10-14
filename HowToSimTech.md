@@ -135,6 +135,12 @@ Useful to find difficult _memory bugs_ when gdb doesn't catch them or doesn't gi
 
 </details>
 
+<details><summary>stace</summary>
+
+Run your program under strace to get a list of all system calls, like file and network access. Just try it with `strace ls` to see what the `ls` command does under the hood.
+
+</details>
+
 # Profiling -- C, C++, ...
 
 <details><summary>perf</summary>
