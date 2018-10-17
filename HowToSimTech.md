@@ -62,6 +62,10 @@ Good for writing pdf documents quickly. Not as nice as LaTeX but good enough for
 
 # LaTeX
 
+<details><summary>Mathpix<a href=https://mathpix.com/">↗</a></summary>
+Screenshot any formulars and mathpix guesses the underlying tex. Not Open source, but free.
+</details>
+
 <details><summary>Detexify <a href="http://detexify.kirelabs.org/classify.html">↗</a></summary>
 Draw the symbol you need and detexify will tell you the corresponding LaTeX command and package.
 </details>
@@ -92,6 +96,11 @@ PowerPoint plugin to use LaTeX formulas in your document.
 
 <details><summary>TexMaker</summary>
 </details>
+
+<details><summary>Overleaf - Online LaTeX-editor<a href="https://www.overleaf.com">↗</a></summary>
+Online latex editor with many features, try the github integration!
+</details>
+
 
 <details><summary>VS-Code plugin</summary>
 </details>
