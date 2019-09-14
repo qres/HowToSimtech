@@ -93,6 +93,9 @@ PowerPoint plugin to use LaTeX formulas in your document.
 <details><summary>TexMaker</summary>
 </details>
 
+<details><summary>TeXstudio</summary>
+</details>
+
 <details><summary>VS-Code plugin</summary>
 </details>
 
@@ -110,6 +113,15 @@ WYSIWYM editor for documents which uses LaTeX internally and also exports to LaT
  * You can write raw LaTeX via `ctrl-L` for features that are not natively supported by LyX.
 
 </details>
+
+## Templates
+
+<details><summary>scientific-thesis-template <a href="https://github.com/latextemplates/scientific-thesis-template">↗</a></summary>
+Unofficial LaTeX template of Computer Science at University of Stuttgart.
+See <a href="http://latextemplates.github.io/scientific-thesis-template/">overview and instructions</a></summary>.
+
+</details>
+
 
 # Debugging -- C, C++, ...
 
