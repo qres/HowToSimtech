@@ -240,23 +240,23 @@ there are many VS Code extensions providing linter for several programming langu
 
 #### black
 
-> Black is a PEP 8 compliant opinionated formatter. Black 
-> reformats entire files in place. Style configuration options 
+> Black is a PEP 8 compliant opinionated formatter. Black
+> reformats entire files in place. Style configuration options
 > are deliberately limited and rarely added.
 
 #### flake8
 
-> flake8 is a python tool that glues together pycodestyle, 
-> pyflakes, mccabe, and third-party plugins to check the style 
+> flake8 is a python tool that glues together pycodestyle,
+> pyflakes, mccabe, and third-party plugins to check the style
 > and quality of some python code.
 
 #### pylint
 
-> Pylint is a static code analyser for Python 2 or 3. The 
-> latest version supports Python 3.7.2 and above. Pylint 
-> analyses your code without actually running it. It checks for 
-> errors, enforces a coding standard, looks for code smells, 
-> and can make suggestions about how the code could be 
+> Pylint is a static code analyser for Python 2 or 3. The
+> latest version supports Python 3.7.2 and above. Pylint
+> analyses your code without actually running it. It checks for
+> errors, enforces a coding standard, looks for code smells,
+> and can make suggestions about how the code could be
 > refactored.
 
 ## Miscellaneous
