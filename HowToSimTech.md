@@ -89,6 +89,10 @@ You can get a continuous preview with the `-pvc` option.
 
 ### TexStudio
 
+### Overleaf
+
+online LaTeX editor useful for collaborations
+
 ### VS-Code plugin
 
 ### Sublime plugin
